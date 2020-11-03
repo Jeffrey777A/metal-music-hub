@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Music Hub | Welcome</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="blank">
+  <meta name="keywords" content="blank">
+  <meta name="author" content="Jeffrey A.">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/music.css">
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div id="branding">
+        <h1><span class="highlight">METAL</span> MUSIC HUB</h1>
+      </div>
+      <nav class="navbar navbar-inverse">
+        <ul>
+          <li class="current"><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="interviews.html">Interviews</a></li>
+          <li><a href="news.html">News</a></li>
+          <li><a href="reviews.html">Reviews</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <form id="search">
+      <input type="text" name="text" class="search" placeholder="Search Here">
+      <input type="submit" name="submit" class="submit" value="Search">
+    </form>
+  </header>
+  <section id="showcase" img src="./img/showcase.jpg" height="200" width="200">
+    <div class="container text-center">
+      <h1>WELCOME!</h1>
+      <p>Beyond the grave is a platform for sharing , reviewing & interviewing metal/hardcore/rock bands.</p>
+    </div>
+
+
+  </section>
+  <section id="newsletter">
+    <div class="container">
+      <h1>Subcribe to our newsletter</h1>
+      <form>
+        <input type="email" placeholder="Enter Email...">
+        <button type="submit" class="button_1">Subscribe</button>
+      </form>
+    </div>
+
+  </section>
+  <section class="boxes1 hide-on-desktop">
+    <div class="box1 hide-on-desktop ">
+      <h3>Searching Serenity</h3>
+      <img src="./img/searchings.jpg" height="400" width="400">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quis maiores praesentium totam, amet commodi vel
+        ducimus, id minima neque animi placeat rerum fugiat dignissimos.</p>
+      <audio controls>
+        <source src="horse.ogg" type="audio/mpeg">
+        <source src="./audio/Dying Light.mp3" type="audio/mpeg">
+
+      </audio>
+    </div>
+    <div class="box1">
+      <h3>Be Not Betrayed</h3>
+      <img src="./img/void.jpg" height="400" width="400">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At amet optio ut expedita nulla molestiae ex
+        distinctio pariatur soluta nesciunt? </p>
+      <audio controls>
+        <source src="horse.ogg" type="audio/mpeg">
+        <source src="./audio/Dying Light.mp3" type="audio/mpeg">
+
+      </audio>
+    </div>
+  </section>
+
+  <section id="music">
+    <div id="container">
+      <div id="audio-img">
+        <img class="cover">
+      </div>
+      <div id="audio-player">
+        <div id="audio-info">
+          <span class="artist"> </span> - <span class="title">
+          </span>
+        </div>
+        <input id="volume" type="range" min="0" max="10" value="5">
+        <br>
+        <div id="audio-buttons">
+          <button id="prev"></button>
+          <button id="play"></button>
+          <button id="pause"></button>
+          <button id="stop"></button>
+          <button id="next"></button>
+        </div>
+        <div class="clearfix">
+          <div id="tracker">
+            <div id="progressbar">
+              <span id="progress">
+              </span>
+            </div>
+            <span id="duration">
+            </span>
+          </div>
+          <div class="clearfix"></div>
+          <ul id="playlist">
+            <li song="IX.mp3" cover="cover1.jpg" artist="Irae">IX.mp3</li>
+            <li song="Hamartia.mp3" cover="cover1.jpg" artist="Irae">Hamartia.mp3</li>
+            <li song="Sepulcher.mp3" cover="cover1.jpg" artist="Irae">Sepulcher.mp3</li>
+            <li song="Wormwood.mp3" cover="cover1.jpg" artist="Irae">Wormwood.mp3</li>
+            <li song="Dies Irae.mp3" cover="cover1.jpg" artist="Irae">Dies Irae.mp3</li>
+            <li song="A Threnody For Grace.mp3" cover="cover1.jpg" artist="Irae">A Threnody For Grace.mp3</li>
+            <li song="Children of Tyranny.mp3" cover="cover1.jpg" artist="Irae"> Children of Tyranny.mp3</li>
+            <li song="Shoah.mp3" cover="cover1.jpg" artist="Irae">Shoah.mp3</li>
+            <li song="Benevolence.mp3" cover="cover1.jpg" artist="Irae">Benevolence.mp3</li>
+            <li song="Spirit.mp3" cover="cover1.jpg" artist="Irae">Spirit.mp3</li>
+
+
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
+
+  </section>
+  <footer>Active Music, Copyright &copy; 2018</footer>
+</body>
+
+</html>
