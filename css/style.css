@@ -14,11 +14,23 @@ p {
   margin: 5px;
   text-align: center;
 }
+
+.page-title {
+  text-align: center;
+  font-size: 2.5rem;
+  border: 1px solid;
+}
 /* Global*/
 .container {
   width: 80%;
   margin: auto;
   overflow: hidden;
+}
+.container--pall {
+  padding-top: 4.375rem;
+  padding-right: 1.5rem;
+  padding-bottom: 4.375rem;
+  padding-left: 1.5rem;
 }
 
 ul {
@@ -96,7 +108,7 @@ header a:hover {
 
 #showcase {
   min-height: 400px;
-  background: url(../img/showcase.jpg) no-repeat 0 -400px;
+  background: url(../img/showcase.jpg) no-repeat center/cover;
   text-align: center;
   color: #1710e5;
 }
@@ -116,6 +128,8 @@ header a:hover {
 }
 #newsletter h1 {
   float: left;
+  padding: 15px;
+  margin: 15px;
 }
 #newsletter form {
   float: right;
@@ -190,6 +204,8 @@ aside#sidebar .quote textarea {
   width: 90%;
   padding: 5px;
 }
+
+/*Article*/
 article {
   color: #2b2929;
   background-color: #7f8c9600;
@@ -199,11 +215,7 @@ article#main-col {
   width: 65%;
 }
 
-.navbar {
-  margin-bottom: 0;
-  border-radius: 0;
-}
-
+/*Nav*/
 .sidenav {
   padding-top: 20px;
   background-color: #f1f1f1;
@@ -220,10 +232,6 @@ article#main-col {
   grid-template-columns: repeat(autofill, minmax(1200px, 8fr));
 }
 
-.sidenav {
-  height: auto;
-  padding: 15px;
-}
 .row.content {
   height: auto;
 }
