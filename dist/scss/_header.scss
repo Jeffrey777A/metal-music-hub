@@ -1,0 +1,41 @@
+/*Header*/
+
+img {
+  border-radius: 20%;
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  nav {
+    padding: 24px;
+  }
+
+  &__mmh {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+    font-size: 40px;
+    color: white;
+  }
+  &__menu {
+    //Mobile menu
+    > span {
+      display: block;
+      width: 26px;
+      height: 2px;
+      background-color: red;
+      &:not(:last-child) {
+        margin-bottom: 3px;
+      }
+    }
+  }
+  &__links {
+    a {
+      font-size: 1rem;
+      color: white;
+      &:not(:last-child) {
+        padding: 1.25em;
+      }
+    }
+  }
+}

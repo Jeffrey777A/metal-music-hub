@@ -9,7 +9,7 @@
   font-family: 'Arial, sans-serif';
   font-size: 13px;
   color: #ffff;
-  background: url(../img/bg.png);
+  background: url(/img/bg.png);
 }
 
 .clearfix {
@@ -57,7 +57,7 @@ input#volume {
 }
 input#volume::-webkit-slider-thumb {
   -webkit-appearance: none !important;
-  background: url(../img/knob.png) no-repeat;
+  background: url(/img/knob.png) no-repeat;
   height: 12px;
   width: 12px;
 }
@@ -73,39 +73,39 @@ input#volume::-webkit-slider-thumb {
 button#play {
   width: 70px;
   height: 70px;
-  background: url(../img/play.png) no-repeat;
+  background: url(/img/play.png) no-repeat;
   float: left;
 }
 
 button#play {
   width: 70px;
   height: 70px;
-  background: url(../img/play.png) no-repeat;
+  background: url(/img/play.png) no-repeat;
   float: left;
 }
 button#pause {
   width: 70px;
   height: 70px;
-  background: url(../img/pause.png) no-repeat;
+  background: url(/img/pause.png) no-repeat;
   float: left;
 }
 button#stop {
   width: 70px;
   height: 70px;
-  background: url(../img/stop.png) no-repeat;
+  background: url(/img/stop.png) no-repeat;
   float: left;
 }
 button#prev {
   width: 70px;
   height: 70px;
-  background: url(../img/prev.png) no-repeat;
+  background: url(/img/prev.png) no-repeat;
   float: left;
   margin-top: 15px;
 }
 button#next {
   width: 70px;
   height: 70px;
-  background: url(../img/next.png) no-repeat;
+  background: url(/img/next.png) no-repeat;
   float: right;
   margin-top: 15px;
 }
@@ -130,11 +130,11 @@ button#next {
   margin-left: 2%;
   margin-top: 20px;
   height: 10px;
-  background: url(../img/progress_bg.png) no-repeat;
+  background: url(/img/progress_bg.png) no-repeat;
 }
 
 #progress {
-  background: url(../img/progress_bg.png) no-repeat;
+  background: url(/img/progress_bg.png) no-repeat;
   height: 10px;
   display: inline-block;
 }
