@@ -1,1 +1,204 @@
-img{border-radius:20%;padding:0;margin:0}.header nav{padding:24px}.header__mmh{font-family:'Courier New', Courier, monospace;font-weight:400;font-size:40px;color:white}.header__menu>span{display:block;width:26px;height:2px;background-color:red}.header__menu>span:not(:last-child){margin-bottom:3px}.header__links a{font-size:1rem;color:white}.header__links a:not(:last-child){padding:1.25em}body{font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;padding:0;margin:0;background-color:#20523428}*,*::before,*::after{-webkit-box-sizing:inherit;box-sizing:inherit}.flex{display:-webkit-box;display:-ms-flexbox;display:flex}.flex-jc-sb{-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}.flex-jc-c{-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}.flex-ai-c{-webkit-box-align:center;-ms-flex-align:center;align-items:center}#showcase{min-height:600px;background:url(/img/showcase.jpg) no-repeat center/cover;text-align:center;color:#1710e5}.container{width:80%;margin:auto;overflow:hidden}.container--pall{padding-top:4.375rem;padding-right:1.5rem;padding-bottom:4.375rem;padding-left:1.5rem}#newsletter{padding:10px;color:#ffffff;background:#003366}#newsletter h1{float:left;padding:15px;margin:15px}#newsletter form{float:right;margin-top:50px}#newsletter input[type='email']{padding:4px;height:25px;width:250px}#search form{margin-right:50px;padding:600px}#boxes{margin-top:20px}#boxes .box1{float:left;text-align:center;width:50%;padding:10px}#boxes .box img{width:90px}footer{padding:20px;margin-top:20px;color:#ffffff;background-color:#003366;text-align:center}form{width:100px;margin:auto;margin-right:150px}aside#sidebar{float:right;width:30%;margin-top:10px}aside#sidebar .quote input,aside#sidebar .quote textarea{width:90%;padding:5px}article{color:#2b2929;background-color:#7f8c9600}article#main-col{float:left;width:65%}.sidenav{padding-top:20px;background-color:#f1f1f1;height:100%}.row.content{height:350px}.grid{display:-ms-grid;display:grid;grid-gap:20px;-ms-grid-columns:(minmax(1200px, 8fr))[autofill];grid-template-columns:repeat(autofill, minmax(1200px, 8fr))}.row.content{height:auto}.box1{background:var(--primary);text-align:center;padding:1.5rem 2rem;-webkit-box-shadow:var(--shadow);box-shadow:var(--shadow)}.boxes1{display:-webkit-box;display:-ms-flexbox;display:flex;grid-gap:10px;margin:0;padding:0}@media only screen and (max-width: 600px){.hide-on-desktop{display:none}}.bg-dark{background-color:#003366}h3{text-align:center}p{padding:5px;margin:5px;text-align:center}.page-title{text-align:center;font-size:2.5rem;border:1px solid}ul{margin:0;padding:0}.button_1{height:38px;background:#174219;border:0;padding-left:20px;padding-right:20px;color:#ffffff}.dark{padding:15px;background:#35424a;color:#ffffff;margin-top:10px;margin-bottom:10px}
+img {
+  border-radius: 20%;
+  padding: 0;
+  margin: 0;
+}
+.header nav {
+  padding: 24px;
+}
+.header__mmh {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 400;
+  font-size: 40px;
+  color: white;
+}
+.header__menu > span {
+  display: block;
+  width: 26px;
+  height: 2px;
+  background-color: red;
+}
+.header__menu > span:not(:last-child) {
+  margin-bottom: 3px;
+}
+.header__links a {
+  font-size: 1rem;
+  color: white;
+}
+.header__links a:not(:last-child) {
+  padding: 1.25em;
+}
+body {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding: 0;
+  margin: 0;
+  background-color: #20523428;
+}
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.flex-jc-sb {
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.flex-jc-c {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.flex-ai-c {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+#showcase {
+  min-height: 600px;
+  background: url(/img/showcase.jpg) no-repeat center/cover;
+  text-align: center;
+  color: #1710e5;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+.container--pall {
+  padding-top: 4.375rem;
+  padding-right: 1.5rem;
+  padding-bottom: 4.375rem;
+  padding-left: 1.5rem;
+}
+#newsletter {
+  padding: 10px;
+  color: #ffffff;
+  background: #003366;
+}
+#newsletter h1 {
+  float: left;
+  padding: 15px;
+  margin: 15px;
+}
+#newsletter form {
+  float: right;
+  margin-top: 50px;
+}
+#newsletter input[type='email'] {
+  padding: 4px;
+  height: 25px;
+  width: 250px;
+}
+#search form {
+  margin-right: 50px;
+  padding: 600px;
+}
+@media (min-width: 40em) {
+  .boxes1 {
+    -ms-grid-columns: (1fr) [4];
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+.boxes1 {
+  display: -ms-grid;
+  display: grid;
+  margin-top: 5px;
+  text-align: center;
+  width: 100%;
+}
+.box1 {
+  text-align: center;
+  padding: 1.5rem 2rem;
+  -webkit-box-shadow: var(--shadow);
+  box-shadow: var(--shadow);
+}
+footer {
+  padding: 20px;
+  margin-top: 20px;
+  color: #ffffff;
+  background-color: #003366;
+  text-align: center;
+}
+form {
+  width: 100px;
+  margin: auto;
+  margin-right: 150px;
+}
+aside#sidebar {
+  float: right;
+  width: 30%;
+  margin-top: 10px;
+}
+aside#sidebar .quote input,
+aside#sidebar .quote textarea {
+  width: 90%;
+  padding: 5px;
+}
+article {
+  color: #2b2929;
+  background-color: #7f8c9600;
+}
+article#main-col {
+  float: left;
+  width: 65%;
+}
+.sidenav {
+  padding-top: 20px;
+  background-color: #f1f1f1;
+  height: 100%;
+}
+.row.content {
+  height: 350px;
+}
+.grid {
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 20px;
+  -ms-grid-columns: (minmax(1200px, 8fr)) [autofill];
+  grid-template-columns: repeat(autofill, minmax(1200px, 8fr));
+}
+.row.content {
+  height: auto;
+}
+.bg-dark {
+  background-color: #003366;
+}
+h3 {
+  text-align: center;
+}
+p {
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
+}
+.page-title {
+  text-align: center;
+  font-size: 2.5rem;
+  border: 1px solid;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+.button_1 {
+  height: 38px;
+  background: #174219;
+  border: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #ffffff;
+}
+.dark {
+  padding: 15px;
+  background: #35424a;
+  color: #ffffff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
